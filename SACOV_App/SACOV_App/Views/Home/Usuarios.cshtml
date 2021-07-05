@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewBag.Title = "Usuarios";
+    Layout = null;
+}
+<!-- Boootstap style-->
+<link rel="stylesheet" href="~/css/bootstrap.min.css" />
+
+
+
+<!-- Cabecera -->
+<header class="p-3 bg-dark text-white">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+                <img src="~/img/logo.png" width="75" height="75" />
+                @Html.ActionLink("Datos Usuario", "Index", null, new { @class = "d-flex  mb-3  me-md-auto text-light text-decoration-none display-4" })
+            </a>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                <input id="busqueda" class="form-control form-control-dark" placeholder="Buscar por nombre">
+            </form>
+
+            <div class="text-end">
+
+                <button onclick="AbrirModal(0)" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Nuevo Usuario
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <td>Id_Usuario</td>
+            <td>Clave</td>
+            <td>Rango</td>
+            <td>Nombre</td>
+            <td>&nbsp;</td>
+        </tr>
+    </thead>
+    <tbody id="tabla_cuerpo">
+    </tbody>
+</table>
+
+<h1 id="prueba"> </h1>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="lbltitulo"></h5>
+                //<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="form-group">
+                    <label>Id_Usuario</label>
+                    <input type="text" id="tid_Usuario" class="form-control limpiar" value="0" readonly />
+                </div>
+
+
+                <div class="form-group">
+                    <label>Clave</label>
+                    <input type="text" id="tclave" class="form-control limpiar" value="D-" />
+                </div>
+
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" id="tnombre" class="form-control limpiar" />
+                </div>
+
+                <div class="form-group">
+                    <label>Rango</label>
+                    <select id="cborango" class="form-select limpiar">
+                        <option value="Soldado">Soldado</option>
+                        <option value="Cabo">Cabo</option>
+                        <option value="Sargento Segundo">Sargento Segundo</option>
+                        <option value="Sargento Primero">Sargento Primero</option>
+                        <option value="Subteniente">Subteniente</option>
+                        <option value="Teniente">Teniente</option>
+                        <option value="CapitanSegundo">Capitan Segundo</option>
+                        <option value="CapitanPrimero">Capitan Primero</option>
+                        <option value="Mayor">Mayor</option>
+                        <option value="Teniente Coronel">Teniente Coronel</option>
+                        <option value="Coronel">Coronel</option>
+                        <option value="General De Grupo">General de Grupo</option>
+                        <option value="General De Brigada">General de Brigada</option>
+                        <option value="General De Division">General de Division</option>
+                        <option value="Secretario De Defensa">Secretario de Defensa</option>
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="btnClose" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button onclick="Guardar()" type="button" class="btn btn-primary">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="~/js/popper.min.js"></script>
+<script src="~/js/jquery-3.6.0.min.js"></script>
+<script src="~/js/bootstrap.min.js"></script>
+<script src="~/JS/Usuarios.js"></script>
