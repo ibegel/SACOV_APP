@@ -172,6 +172,7 @@
     <Content Include="css\bootstrap.min.css.map" />
     <Content Include="css\bootstrap.rtl.css.map" />
     <Content Include="css\bootstrap.rtl.min.css.map" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
