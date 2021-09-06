@@ -128,7 +128,6 @@ C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\obj\Debug\SACOV_App.
 C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\obj\Debug\SACOV_App.csproj.CopyComplete
 C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\obj\Debug\SACOV_App.dll
 C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\obj\Debug\SACOV_App.pdb
-C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\obj\Debug\SACOV_App.csproj.AssemblyReference.cache
 C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\roslyn\csc.exe.config
 C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\roslyn\csc.rsp
 C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\roslyn\csi.exe
@@ -170,3 +169,4 @@ C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\roslyn\vbc.exe.c
 C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\roslyn\vbc.rsp
 C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\roslyn\VBCSCompiler.exe
 C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\obj\Debug\SACOV_App.csprojAssemblyReference.cache

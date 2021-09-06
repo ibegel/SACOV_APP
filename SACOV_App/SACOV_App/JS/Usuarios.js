@@ -12,9 +12,15 @@ function listarUsuario() {
         });
 }
 
+function borrarlista()
+{
+    location.reload();
+}
+
 function crearListado(res,i) {
     var cuerpo = document.getElementById('tabla_cuerpo');
     var lista = document.createElement('tr');
+    lista.setAttribute("id", "Entidades");
         lista.innerHTML = `
                 <td>${res[i].id_Usuario}</td>
                 <td>${res[i].clave}</td>
@@ -83,16 +89,41 @@ function Guardar() {
             .then(res => {
                 if (res == 1) {
                     alert("Se ejecuto correctamente");
-                    listarUsuario();
                     document.getElementById("btnClose").click();
+                    borrarlista();
+                    
                 }
                 else {
                     alert("Error");
                 }
             })
     }
+
     
 }
 
+
+function Eliminar(id) {
+    if (confirm("Desea Borrar este elemento") == 1) {
+        fetch("http://192.168.100.10:8081/api/Usuario?id_usuario" + id,
+            {
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                method: 'PUT'
+            }).then(res => res.json())
+            .then(res => {
+                if (res == 1) {
+                    alert("Se ejecuto correctamente");
+                    document.getElementById("btnClose").click();
+                    borrarlista();
+
+                }
+                else {
+                    alert("Error");
+                }
+            })
+    }
+}
 
 
