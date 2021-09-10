@@ -169,4 +169,5 @@ C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\roslyn\vbc.exe.c
 C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\roslyn\vbc.rsp
 C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\roslyn\VBCSCompiler.exe
 C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\obj\Debug\SACOV_App.csprojAssemblyReference.cache
+C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\obj\Debug\SACOV_App.csproj.AssemblyReference.cache
+C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\System.Web.Cors.dll
