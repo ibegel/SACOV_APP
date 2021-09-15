@@ -22,7 +22,14 @@ namespace SACOV_App.Controllers
 
         public ActionResult Usuarios()
         {
-            ViewBag.Message = "Your application description page.";
+        
+
+            return View();
+        }
+
+        public ActionResult Des_Agente()
+        {
+          
 
             return View();
         }

@@ -130,10 +130,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Chart\chart.esm.js" />
-    <Content Include="Chart\chart.esm.min.js" />
-    <Content Include="Chart\chart.js" />
-    <Content Include="Chart\chart.min.js" />
+    <Content Include="Chart\Chart.esm.js" />
+    <Content Include="Chart\Chart.esm.min.js" />
+    <Content Include="Chart\Chart.js" />
+    <Content Include="Chart\Chart.min.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
