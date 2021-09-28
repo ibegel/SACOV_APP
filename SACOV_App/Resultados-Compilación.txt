@@ -1,0 +1,4 @@
+﻿Operación Compilar iniciada..
+1>------ Operación Compilar iniciada: proyecto: SACOV_App, configuración: Debug Any CPU ------
+1>  SACOV_App -> C:\Users\ibege\Desktop\Github\SACOV_APP\SACOV_App\SACOV_App\bin\SACOV_App.dll
+========== Compilar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
