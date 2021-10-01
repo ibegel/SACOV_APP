@@ -29,8 +29,9 @@ function crearListado(res,i) {
                 <td>${res.nombre}</td>
                 <td>${res.distintivo}</td>
                 <td>
-                    <button onclick='AbrirModal(${res.id_Agente})' type='button' class='btn btn-outline-dark btn-sm' data-bs-toggle='modal' data-bs-target='#exampleModal'>Editar</button>
+                    <button onclick='AbrirModal(${res.id_Agente})' type='button' class='btn btn-outline-dark btn-sm' data-bs-toggle='modal' data-bs-target="#modalingreso">Editar</button>
                     <button onclick='Eliminar(${res.id_Agente})' type='button' class='btn btn-outline-dark btn-sm'>Eliminar</button>
+                    <button onclick='Ver(${res.id_Agente})' type='button' class='btn btn-outline-dark btn-sm'>Ver</button>
                 </td>`;
         cuerpo.appendChild(lista);
 }
@@ -70,11 +71,7 @@ function Guardar() {
         var jnombre = document.getElementById("tnombre").value;
         var jdistintivo = document.getElementById("tdistintivo").value;
         if (jid == null || jid == 0) {
-            fetch("http://192.168.1.102:8083/api/Agente")
-                .then(res => res.json())
-                .then(res => {
-                    //jid = res.length + 1;
-                });
+            jid = 0;
         }
         fetch("http://192.168.1.102:8083/api/Agente",
             {
@@ -87,7 +84,7 @@ function Guardar() {
                     "Matricula": jclave,
                     "Grado": jrango,
                     "Nombre": jnombre,
-                    "Distintivo":jdistintivo
+                    "Distintivo": jdistintivo
                 })
             }).then(res => res.json())
             .then(res => {
@@ -95,26 +92,24 @@ function Guardar() {
                     alert("Se ejecuto correctamente");
                     document.getElementById("btnClose").click();
                     borrarlista();
-                    
+
                 }
                 else {
                     alert("Error");
                 }
             })
     }
-
-    
 }
 
 
 function Eliminar(id) {
     if (confirm("Desea Borrar este elemento") == 1) {
-        fetch("http://192.168.100.3:8085/api/Usuario?id_usuario" + id,
+        fetch("http://192.168.1.102:8083/api/Agente?id_Agente=" + id,
             {
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                method: 'PUT'
+                method: 'DELETE'
             }).then(res => res.json())
             .then(res => {
                 if (res == 1) {

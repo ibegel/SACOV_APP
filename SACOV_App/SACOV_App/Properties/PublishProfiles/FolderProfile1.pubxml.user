@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\ibege\Desktop\SVistas</_PublishTargetUrl>
-    <History>True|2021-09-28T17:13:38.1101328Z;True|2021-09-28T12:13:33.7758425-05:00;</History>
+    <History>True|2021-09-29T16:46:30.0496074Z;True|2021-09-29T11:40:30.0060650-05:00;True|2021-09-29T11:40:27.2328029-05:00;True|2021-09-29T11:38:37.1202730-05:00;True|2021-09-29T11:36:12.7676051-05:00;True|2021-09-29T11:33:02.2155940-05:00;True|2021-09-29T11:27:12.3769543-05:00;True|2021-09-29T11:25:35.8945048-05:00;True|2021-09-28T12:13:38.1101328-05:00;True|2021-09-28T12:13:33.7758425-05:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
@@ -192,10 +192,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/06/2021 15:02:34</publishTime>
     </File>
     <File Include="bin/SACOV_App.dll">
-      <publishTime>09/28/2021 12:13:32</publishTime>
+      <publishTime>09/29/2021 11:46:29</publishTime>
     </File>
     <File Include="bin/SACOV_App.pdb">
-      <publishTime>09/28/2021 12:13:32</publishTime>
+      <publishTime>09/29/2021 11:46:29</publishTime>
     </File>
     <File Include="bin/System.Web.Cors.dll">
       <publishTime>11/28/2018 06:58:44</publishTime>
@@ -387,7 +387,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/06/2021 15:02:34</publishTime>
     </File>
     <File Include="JS/Agente.js">
-      <publishTime>09/28/2021 12:45:48</publishTime>
+      <publishTime>09/29/2021 11:41:55</publishTime>
     </File>
     <File Include="JS/Des_Agente.js">
       <publishTime>09/14/2021 12:19:03</publishTime>
@@ -447,13 +447,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/06/2021 15:02:34</publishTime>
     </File>
     <File Include="Views/Home/Usuarios.cshtml">
-      <publishTime>09/28/2021 12:25:48</publishTime>
+      <publishTime>09/29/2021 11:45:57</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>09/06/2021 15:02:34</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/28/2021 12:15:32</publishTime>
+      <publishTime>09/28/2021 20:12:54</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>09/06/2021 15:02:34</publishTime>
